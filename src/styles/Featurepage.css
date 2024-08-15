@@ -1,0 +1,68 @@
+.feature-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.feature-content p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Style the upload input */
+.feature-content input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feature-content input[type="file"]:hover {
+    background-color: darkred;
+}
+
+/* Style the submit button */
+.feature-content button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feature-content button[type="submit"]:hover {
+    background-color: darkred;
+}
+
+/* Style the result list */
+.feature-content .result {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.feature-content .result h2 {
+    font-size: 2rem;
+    color: red;
+}
+
+.feature-content .result ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feature-content .result ul li {
+    margin-bottom: 10px;
+}
